@@ -1,0 +1,45 @@
+body{
+    background-image: url(img/meteo.jpg), linear-gradient(to bottom, black, transparent);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.box-container{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 250px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+#city{
+    background-color: rgba(41, 128, 185, 0.75);
+}
+
+#temp{
+    background-color: rgba(43, 78, 105, 0.75);
+}
+
+#humidity{
+    background-color: rgba(52, 152, 219, 0.75);
+}
+
+#wind{
+    background-color: rgba(143, 146, 154, 0.75);
+}
+
+#description{
+    background-color: rgba(82, 186, 255, 0.75);
+}
